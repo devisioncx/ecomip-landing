@@ -42,8 +42,8 @@ export function TestimonialsSection() {
             O Que Nossos Clientes Dizem
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Mais de 5.000 clientes satisfeitos confiam na Ecomip para resolver
-            seus problemas com pragas.
+            Clientes satisfeitos confiam na qualidade dos nossos serviços e na
+            eficácia das nossas soluções em controle de pragas.
           </p>
         </div>
 

@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ecomip-landing.vercel.app/sitemap.xml
+
+# Disallow crawling of admin or private areas
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Crawl-delay (optional - be respectful to search engines)
+Crawl-delay: 1
