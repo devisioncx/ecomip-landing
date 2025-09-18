@@ -1,5 +1,5 @@
-import { Card, CardContent } from "@/components/ui/card"
-import { Star, Quote } from "lucide-react"
+import { Card, CardContent } from "@/components/ui/card";
+import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
@@ -19,23 +19,31 @@ const testimonials = [
     rating: 5,
     text: "Atendimento 24h funcionou mesmo! Liguei de madrugada por causa de uma infestação e eles vieram no mesmo dia. Muito profissionais.",
   },
-]
+];
 
 const certifications = [
-  { name: "ANVISA", description: "Licenciado pela Agência Nacional de Vigilância Sanitária" },
-  { name: "CREA", description: "Responsável técnico registrado no CREA" },
-  { name: "ISO 9001", description: "Certificação de qualidade em processos" },
-  { name: "15 Anos", description: "De experiência no mercado" },
-]
+  {
+    name: "ANVISA",
+    description: "Licenciado pela Agência Nacional de Vigilância Sanitária",
+  },
+  {
+    name: "CRQ",
+    description:
+      "Responsável técnico registrado no Conselho Regional de Química",
+  },
+];
 
 export function TestimonialsSection() {
   return (
     <section className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">O Que Nossos Clientes Dizem</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+            O Que Nossos Clientes Dizem
+          </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Mais de 5.000 clientes satisfeitos confiam na Ecomip para resolver seus problemas com pragas.
+            Mais de 5.000 clientes satisfeitos confiam na Ecomip para resolver
+            seus problemas com pragas.
           </p>
         </div>
 
@@ -46,16 +54,25 @@ export function TestimonialsSection() {
               <CardContent className="p-6">
                 <div className="space-y-4">
                   <Quote className="h-8 w-8 text-primary/30" />
-                  <p className="text-muted-foreground text-pretty">"{testimonial.text}"</p>
+                  <p className="text-muted-foreground text-pretty">
+                    "{testimonial.text}"
+                  </p>
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="font-semibold text-foreground">{testimonial.name}</p>
-                      <p className="text-sm text-muted-foreground">{testimonial.location}</p>
+                      <p className="font-semibold text-foreground">
+                        {testimonial.name}
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        {testimonial.location}
+                      </p>
                     </div>
                     {testimonial.rating && (
                       <div className="flex gap-1">
                         {[...Array(testimonial.rating)].map((_, i) => (
-                          <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                          <Star
+                            key={i}
+                            className="h-4 w-4 fill-yellow-400 text-yellow-400"
+                          />
                         ))}
                       </div>
                     )}
@@ -72,8 +89,12 @@ export function TestimonialsSection() {
             <Card key={index} className="bg-card text-center">
               <CardContent className="p-6">
                 <div className="space-y-2">
-                  <h3 className="text-2xl font-bold text-primary">{cert.name}</h3>
-                  <p className="text-sm text-muted-foreground">{cert.description}</p>
+                  <h3 className="text-2xl font-bold text-primary">
+                    {cert.name}
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    {cert.description}
+                  </p>
                 </div>
               </CardContent>
             </Card>
@@ -81,5 +102,5 @@ export function TestimonialsSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

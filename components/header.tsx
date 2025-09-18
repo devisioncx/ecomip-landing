@@ -52,11 +52,16 @@ export function Header() {
           <div className="hidden md:flex items-center space-x-4">
             <div className="flex items-center text-sm text-muted-foreground">
               <Phone className="h-4 w-4 mr-2" />
-              <span>(11) 9999-9999</span>
+              <span>(11) 94063-6383</span>
             </div>
-            <a href="#contato">
-              <Button className="bg-primary hover:bg-primary/90">
-                ORÇAMENTO GRÁTIS
+            <a
+              href="https://wa.me/5511940636383?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20controle%20de%20pragas.%20Podem%20me%20ajudar%20com%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20ECOMIP%3F"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer"
+            >
+              <Button className="bg-primary hover:bg-primary/90 cursor-pointer">
+                SOLICITAR ORÇAMENTO
               </Button>
             </a>
           </div>
@@ -108,11 +113,17 @@ export function Header() {
               </a>
               <div className="flex items-center text-sm text-muted-foreground pt-2">
                 <Phone className="h-4 w-4 mr-2" />
-                <span>(11) 9999-9999</span>
+                <span>(11) 94063-6383</span>
               </div>
-              <a href="#contato" onClick={() => setIsMenuOpen(false)}>
-                <Button className="bg-primary hover:bg-primary/90 w-full">
-                  ORÇAMENTO GRÁTIS
+              <a
+                href="https://wa.me/5511940636383?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20controle%20de%20pragas.%20Podem%20me%20ajudar%20com%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20ECOMIP%3F"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsMenuOpen(false)}
+                className="cursor-pointer"
+              >
+                <Button className="bg-primary hover:bg-primary/90 w-full cursor-pointer">
+                  SOLICITAR ORÇAMENTO
                 </Button>
               </a>
             </nav>

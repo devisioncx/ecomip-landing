@@ -7,7 +7,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "ECOMIP - Controle de Pragas e Dedetização em São Paulo",
   description:
-    "Soluções profissionais em controle de pragas com garantia de resultado. Dedetização residencial e comercial na Grande São Paulo. Orçamento gratuito!",
+    "Soluções profissionais em controle de pragas com garantia de resultado. Dedetização residencial e comercial na Grande São Paulo. Atendimento especializado!",
   icons: {
     icon: "/faviconEcomip2.png",
     shortcut: "/faviconEcomip2.png",

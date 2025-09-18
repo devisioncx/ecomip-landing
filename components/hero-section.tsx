@@ -1,30 +1,56 @@
-import { Button } from "@/components/ui/button"
-import { Shield, Award, Clock } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import { Shield, Award, Clock } from "lucide-react";
 
 export function HeroSection() {
   return (
-    <section id="inicio" className="bg-gradient-to-br from-background to-muted py-20">
+    <section
+      id="inicio"
+      className="bg-gradient-to-br from-background to-muted py-20"
+    >
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight text-balance">
-                Livre-se das Pragas com <span className="text-primary">Segurança</span> e{" "}
+                Livre-se das Pragas com{" "}
+                <span className="text-primary">Segurança</span> e{" "}
                 <span className="text-secondary">Eficiência</span>
               </h1>
               <p className="text-xl text-muted-foreground text-pretty">
-                Soluções profissionais em controle de pragas com garantia de resultado. Proteja sua família e seu
-                negócio com quem entende do assunto.
+                Soluções profissionais em controle de pragas com garantia de
+                resultado. Proteja sua família e seu negócio com quem entende do
+                assunto.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8">
-                SOLICITAR ORÇAMENTO
-              </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 bg-transparent">
-                EMERGÊNCIA 24H
-              </Button>
+              <a
+                href="https://wa.me/5511940636383?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20controle%20de%20pragas.%20Podem%20me%20ajudar%20com%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20ECOMIP%3F"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer"
+              >
+                <Button
+                  size="lg"
+                  className="bg-primary hover:bg-primary/90 text-lg px-8 cursor-pointer"
+                >
+                  SOLICITAR ORÇAMENTO
+                </Button>
+              </a>
+              <a
+                href="https://wa.me/5511940636383?text=Ol%C3%A1%21%20Tenho%20uma%20situa%C3%A7%C3%A3o%20de%20emerg%C3%AAncia%20com%20pragas%20e%20preciso%20de%20atendimento%20urgente.%20Podem%20me%20ajudar%3F"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer"
+              >
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="text-lg px-8 bg-transparent cursor-pointer"
+                >
+                  EMERGÊNCIA 24H
+                </Button>
+              </a>
             </div>
 
             {/* Trust Indicators */}
@@ -54,5 +80,5 @@ export function HeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
