@@ -9,8 +9,7 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold text-primary">ECOMIP</h3>
             <p className="text-muted-foreground text-pretty">
-              Especialistas em controle de pragas com mais de 15 anos de experiência. Soluções seguras e eficazes para
-              sua tranquilidade.
+              Controle de pragas com padrão de excelência e métodos modernos. Soluções seguras para sua tranquilidade.
             </p>
             <div className="flex gap-4">
               <Facebook className="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer" />

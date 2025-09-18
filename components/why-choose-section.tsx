@@ -41,7 +41,7 @@ export function WhyChooseSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">Por Que Escolher a Ecomip?</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Mais de 15 anos de experiência no mercado, oferecendo soluções eficazes e seguras para o controle de pragas.
+            Dedicados à excelência em cada atendimento com métodos modernos, oferecendo soluções seguras e eficazes para o controle de pragas.
           </p>
         </div>
 
