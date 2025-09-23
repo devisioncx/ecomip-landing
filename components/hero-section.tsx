@@ -72,7 +72,7 @@ export function HeroSection() {
 
           <div className="relative">
             <img
-              src="/professional-pest-control-technician-in-uniform-sp.jpg"
+              src="/professional_pest_control.png"
               alt="Profissional da Ecomip realizando dedetização"
               className="w-full h-auto rounded-lg shadow-2xl"
             />
