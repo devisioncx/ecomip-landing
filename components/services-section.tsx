@@ -37,7 +37,7 @@ const services = [
     features: [
       "Produtos seguros para família",
       "Tratamento personalizado",
-      "Garantia de 6 meses",
+      "Garantia de 3 meses",
     ],
     detailedInfo: {
       problem:
@@ -51,7 +51,7 @@ const services = [
         "Orientações preventivas personalizadas",
       ],
       duration: "2-4 horas dependendo do tamanho do imóvel",
-      warranty: "6 meses com retorno gratuito se necessário",
+      warranty: "3 meses com retorno gratuito se necessário",
       preparation:
         "Remover alimentos expostos e facilitar acesso aos ambientes",
     },
