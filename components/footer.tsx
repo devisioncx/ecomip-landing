@@ -129,11 +129,11 @@ export function Footer() {
             <p className="text-muted-foreground text-sm">
               © 2024 Ecomip. Todos os direitos reservados.
             </p>
-            <div className="flex gap-6 text-sm text-muted-foreground">
+            {/* <div className="flex gap-6 text-sm text-muted-foreground">
               <span>Licenciado pela ANVISA</span>
               <span>CRQ (Conselho Regional de Química): 123456789</span>
               <span>Responsável Técnico: João Silva</span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
