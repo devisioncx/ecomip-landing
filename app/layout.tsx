@@ -38,12 +38,12 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://ecomip-landing.vercel.app",
+    canonical: "https://ecomip.com.br",
   },
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://ecomip-landing.vercel.app",
+    url: "https://ecomip.com.br",
     title: "ECOMIP - Controle de Pragas e Dedetização em São Paulo",
     description:
       "Soluções profissionais em controle de pragas com garantia de resultado. Dedetização residencial e comercial na Grande São Paulo. Atendimento especializado!",
@@ -72,9 +72,11 @@ export const metadata: Metadata = {
   other: {
     "geo.region": "BR-SP",
     "geo.placename": "São Paulo",
-    "geo.position": "-23.5505;-46.6333",
-    ICBM: "-23.5505, -46.6333",
+    "geo.position": "-23.56643;-46.66102",
+    ICBM: "-23.56643, -46.66102",
+    "business:contact_data:street_address": "Rua Tatuí, 40",
     "business:contact_data:locality": "São Paulo",
+    "business:contact_data:postal_code": "01409-010",
     "business:contact_data:region": "SP",
     "business:contact_data:country_name": "Brasil",
     "business:contact_data:phone_number": "+5511940636383",
@@ -89,23 +91,25 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "ECOMIP - Controle de Pragas",
+    name: "Ecomip Controle de Pragas",
     description:
       "Soluções profissionais em controle de pragas com garantia de resultado. Dedetização residencial e comercial na Grande São Paulo.",
-    image: "https://ecomip-landing.vercel.app/logoEcomip.png",
-    url: "https://ecomip-landing.vercel.app",
+    image: "https://ecomip.com.br/logoEcomip.png",
+    url: "https://ecomip.com.br",
     telephone: "+55-11-94063-6383",
     email: "contato@ecomip.com.br",
     address: {
       "@type": "PostalAddress",
+      streetAddress: "Rua Tatuí, 40",
       addressLocality: "São Paulo",
       addressRegion: "SP",
+      postalCode: "01409-010",
       addressCountry: "BR",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: -23.5505,
-      longitude: -46.6333,
+      latitude: -23.56643,
+      longitude: -46.66102,
     },
     areaServed: [
       {
@@ -156,8 +160,124 @@ export default function RootLayout({
               "Soluções para estabelecimentos comerciais e industriais com certificados e relatórios técnicos.",
           },
         },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Controle de Roedores",
+            description:
+              "Desratização profissional com técnicas seguras e produtos homologados pela ANVISA.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Descupinização",
+            description:
+              "Tratamento completo contra cupins de solo e madeira seca com garantia estendida.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Controle de Pombos",
+            description:
+              "Instalação de barreiras físicas e repelentes para afastamento definitivo de pombos.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Controle de Baratas",
+            description:
+              "Eliminação completa de infestações de baratas com produtos de última geração.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Controle de Formigas",
+            description:
+              "Tratamento especializado para todos os tipos de formigas urbanas.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Dedetização de Emergência",
+            description:
+              "Atendimento imediato 24 horas para situações urgentes de infestação.",
+          },
+        },
       ],
     },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "127",
+      bestRating: "5",
+      worstRating: "1",
+    },
+  };
+
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "Quanto tempo dura o efeito da dedetização?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "O efeito da dedetização dura em média de 3 a 6 meses, dependendo do tipo de praga, do ambiente e dos cuidados de manutenção. Oferecemos garantia de 90 dias para todos os nossos serviços residenciais.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "A dedetização é segura para crianças e animais de estimação?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Sim! Utilizamos produtos homologados pela ANVISA e seguros para humanos e pets. Recomendamos aguardar 4 horas após a aplicação para retornar ao ambiente, tempo necessário para a secagem completa dos produtos.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Quanto custa uma dedetização em São Paulo?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "O valor varia conforme o tamanho do imóvel e tipo de infestação. Entre em contato pelo WhatsApp (11) 94063-6383 para receber um orçamento gratuito e personalizado em até 2 horas.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Preciso sair de casa durante a dedetização?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Durante a aplicação, sim. O procedimento leva em média 1 a 2 horas e recomendamos que moradores e pets aguardem 4 horas antes de retornar ao ambiente tratado.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "A ECOMIP atende em quais regiões?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Atendemos toda a Grande São Paulo, incluindo capital e região metropolitana, além do litoral de São Paulo. Oferecemos atendimento de emergência 24 horas.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Vocês fornecem certificado de dedetização?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Sim! Emitimos certificado técnico e relatório detalhado do serviço realizado, essencial para empresas e condomínios que precisam comprovar o controle de pragas perante à Vigilância Sanitária.",
+        },
+      },
+    ],
   };
 
   return (
@@ -167,8 +287,18 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="format-detection" content="telephone=no" />
+        <meta name="theme-color" content="#10b981" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta
+          name="apple-mobile-web-app-status-bar-style"
+          content="black-translucent"
+        />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>

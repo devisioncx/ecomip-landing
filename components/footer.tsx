@@ -1,11 +1,4 @@
-import {
-  Phone,
-  Mail,
-  MapPin,
-  Facebook,
-  Instagram,
-  Linkedin,
-} from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -19,11 +12,6 @@ export function Footer() {
               Controle de pragas com padrão de excelência e métodos modernos.
               Soluções seguras para sua tranquilidade.
             </p>
-            <div className="flex gap-4">
-              <Facebook className="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer" />
-              <Instagram className="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer" />
-              <Linkedin className="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer" />
-            </div>
           </div>
 
           {/* Services */}
@@ -127,7 +115,7 @@ export function Footer() {
         <div className="border-t border-border mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-muted-foreground text-sm">
-              © 2024 Ecomip. Todos os direitos reservados.
+              © 2025 Ecomip. Todos os direitos reservados.
             </p>
             {/* <div className="flex gap-6 text-sm text-muted-foreground">
               <span>Licenciado pela ANVISA</span>

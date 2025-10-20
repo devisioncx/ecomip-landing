@@ -2,12 +2,37 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://ecomip-landing.vercel.app/sitemap.xml
+Sitemap: https://ecomip.com.br/sitemap.xml
 
 # Disallow crawling of admin or private areas
 Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
 
-# Crawl-delay (optional - be respectful to search engines)
+# Google Bot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
 Crawl-delay: 1
+
+# Mobile Google Bot
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Google Image Bot
+User-agent: Googlebot-Image
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
