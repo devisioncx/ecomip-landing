@@ -25,7 +25,7 @@ export function HeroSection() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/5511940636383?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20controle%20de%20pragas.%20Podem%20me%20ajudar%20com%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20ECOMIP%3F"
+                href="https://wa.me/5511947559196?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20controle%20de%20pragas.%20Podem%20me%20ajudar%20com%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20ECOMIP%3F"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cursor-pointer"
@@ -38,7 +38,7 @@ export function HeroSection() {
                 </Button>
               </a>
               <a
-                href="https://wa.me/5511940636383?text=Ol%C3%A1%21%20Tenho%20uma%20situa%C3%A7%C3%A3o%20de%20emerg%C3%AAncia%20com%20pragas%20e%20preciso%20de%20atendimento%20urgente.%20Podem%20me%20ajudar%3F"
+                href="https://wa.me/5511947559196?text=Ol%C3%A1%21%20Tenho%20uma%20situa%C3%A7%C3%A3o%20de%20emerg%C3%AAncia%20com%20pragas%20e%20preciso%20de%20atendimento%20urgente.%20Podem%20me%20ajudar%3F"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cursor-pointer"

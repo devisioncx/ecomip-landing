@@ -2,7 +2,7 @@
 
 export function WhatsAppButton() {
   const handleWhatsAppClick = () => {
-    const phoneNumber = "5511940636383";
+    const phoneNumber = "5511947559196";
     const message =
       "Olá! Gostaria de solicitar um orçamento para controle de pragas. Podem me ajudar com informações sobre os serviços da ECOMIP?";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(

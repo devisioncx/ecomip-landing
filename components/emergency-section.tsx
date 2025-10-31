@@ -24,7 +24,7 @@ export function EmergencySection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <div className="flex items-center gap-2 text-lg font-semibold text-foreground">
               <Phone className="h-6 w-6 text-primary" />
-              <span>(11) 94063-6383</span>
+              <span>(11) 94755-9196</span>
             </div>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <Clock className="h-4 w-4" />
@@ -33,7 +33,7 @@ export function EmergencySection() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+5511940636383" className="cursor-pointer">
+            <a href="tel:+5511947559196" className="cursor-pointer">
               <Button
                 size="lg"
                 className="bg-destructive hover:bg-destructive/90 text-lg px-8 cursor-pointer"
@@ -43,7 +43,7 @@ export function EmergencySection() {
               </Button>
             </a>
             <a
-              href="https://wa.me/5511940636383?text=Ol%C3%A1%21%20Tenho%20uma%20situa%C3%A7%C3%A3o%20de%20emerg%C3%AAncia%20com%20pragas%20e%20preciso%20de%20atendimento%20urgente.%20Podem%20me%20ajudar%3F"
+              href="https://wa.me/5511947559196?text=Ol%C3%A1%21%20Tenho%20uma%20situa%C3%A7%C3%A3o%20de%20emerg%C3%AAncia%20com%20pragas%20e%20preciso%20de%20atendimento%20urgente.%20Podem%20me%20ajudar%3F"
               target="_blank"
               rel="noopener noreferrer"
               className="cursor-pointer"

@@ -334,7 +334,7 @@ export function ServicesSection() {
                       {/* CTA WhatsApp */}
                       <div className="pt-4 border-t">
                         <a
-                          href="https://wa.me/5511940636383?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20controle%20de%20pragas.%20Podem%20me%20ajudar%20com%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20ECOMIP%3F"
+                          href="https://wa.me/5511947559196?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20controle%20de%20pragas.%20Podem%20me%20ajudar%20com%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20ECOMIP%3F"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="w-full cursor-pointer"

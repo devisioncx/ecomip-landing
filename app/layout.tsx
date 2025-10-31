@@ -79,7 +79,7 @@ export const metadata: Metadata = {
     "business:contact_data:postal_code": "01409-010",
     "business:contact_data:region": "SP",
     "business:contact_data:country_name": "Brasil",
-    "business:contact_data:phone_number": "+5511940636383",
+    "business:contact_data:phone_number": "+5511947559196",
   },
 };
 
@@ -96,7 +96,7 @@ export default function RootLayout({
       "Soluções profissionais em controle de pragas com garantia de resultado. Dedetização residencial e comercial na Grande São Paulo.",
     image: "https://ecomip.com.br/logoEcomip.png",
     url: "https://ecomip.com.br",
-    telephone: "+55-11-94063-6383",
+    telephone: "+55-11-94755-9196",
     email: "contato@ecomip.com.br",
     address: {
       "@type": "PostalAddress",
@@ -250,7 +250,7 @@ export default function RootLayout({
         name: "Quanto custa uma dedetização em São Paulo?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "O valor varia conforme o tamanho do imóvel e tipo de infestação. Entre em contato pelo WhatsApp (11) 94063-6383 para receber um orçamento gratuito e personalizado em até 2 horas.",
+          text: "O valor varia conforme o tamanho do imóvel e tipo de infestação. Entre em contato pelo WhatsApp (11) 94755-9196 para receber um orçamento gratuito e personalizado em até 2 horas.",
         },
       },
       {
