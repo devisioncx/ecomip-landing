@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone } from "lucide-react";
@@ -13,10 +14,13 @@ export function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <img
+            <Image
               src="/logoEcomip.png"
               alt="ECOMIP - Manejo Integrado de Pragas"
-              className="h-12 w-auto"
+              width={150}
+              height={48}
+              className="h-12 w-auto object-contain"
+              priority
             />
           </div>
 
@@ -70,6 +74,7 @@ export function Header() {
           <button
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
           >
             {isMenuOpen ? (
               <X className="h-6 w-6" />

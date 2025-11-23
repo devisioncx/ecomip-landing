@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Shield, Award, Clock } from "lucide-react";
 
@@ -71,10 +72,13 @@ export function HeroSection() {
           </div>
 
           <div className="relative">
-            <img
+            <Image
               src="/professional_pest_control.png"
               alt="Profissional da Ecomip realizando dedetização"
+              width={600}
+              height={400}
               className="w-full h-auto rounded-lg shadow-2xl"
+              priority
             />
           </div>
         </div>
